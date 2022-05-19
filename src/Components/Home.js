@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div className="homePage">        
             <h1 className="homeTitle">A Place to get some spiritual companions for your Elden Ring Journey</h1>
-            <button className="homeButton"><Link to="/shop" className="homeShopLink">More Info</Link></button>
+            <button className="homeButton"><Link to="/shopping-cart/shop" className="homeShopLink">More Info</Link></button>
         </div>
 
     )
