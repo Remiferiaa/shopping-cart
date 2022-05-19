@@ -1,0 +1,45 @@
+.homePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../Asset/bg.jpg");
+    height: 100vh;
+}
+
+.homeTitle {
+    margin-bottom: 24px;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.homeShopLink {
+    text-decoration: none;
+    color: white;
+}
+
+.homeButton {
+    border: 3px solid  transparent;
+    background-color: black;
+    font-size: 36px;
+
+}
+
+.homeButton:hover {
+    animation: btnEffect 3s linear infinite;
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+.hoemButton:active {
+    transform: scale(0.95);
+}
+
+@keyframes btnEffect {
+    0% {border: 3px solid #00C0FF }
+    24% {border: 3px solid rgb(0, 255, 0)}
+    49% {border: 3px solid #FFCF00 }
+    60% {border: 3px solid #FC4F4F }
+    80% {border: 3px solid rgb(147, 0, 252)}
+    100% {border: 3px solid #00C0FF }
+}
