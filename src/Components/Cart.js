@@ -43,7 +43,7 @@ const Cart = () => {
                     }
                     <div className="sideBtm">
                     <p className="cartTotal">Subtotal = ${cartTotal()}</p>
-                    <button onClick={checkout} className="checkOut"><Link to="/shopping-cart" className="checkOutLink">Proceed to Checkout</Link></button>
+                    <button onClick={checkout} className="checkOut"><Link to="/" className="checkOutLink">Proceed to Checkout</Link></button>
                     </div>
                 </div>
             </div>

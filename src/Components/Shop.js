@@ -21,7 +21,7 @@ const Shop = () => {
             <div className="shopList">
                 {productList.map(item => (
                     <div key={item.id} className="shopItem">
-                        <Link to={`/shopping-cart/shop/${item.id}`} className="shopLinks">
+                        <Link to={`/shop/${item.id}`} className="shopLinks">
                             <img src={item.image} alt={item.name} className="shopImg"></img>
                             <p className="shopItemName">{item.name}</p>
                             <p className="shopItemPrice">Price: ${parseInt(item.fpCost) + 10}</p>
