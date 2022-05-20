@@ -5,12 +5,13 @@
     justify-content: center;
     height: 100%;
     gap: 24px;
+    flex-grow: 1;
 }
 
 .itemName {
     border-bottom: 3px solid black;
-    margin-bottom: 24px;
-    margin-top: 144px;
+    margin-bottom: 48px;
+    margin-top: 108px;
 }
 
 .prodInfo {
@@ -20,15 +21,14 @@
 
 .prodImg {
     width: 400px;
-    height: 400px;
 }
 
 .prodDescrip {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 400px;
-    font-size: 32px;
+    justify-content: space-around;
+    width: 700px;
+    font-size: 24px;
 }
 
 .descrip {
@@ -50,4 +50,11 @@
 
 .addCart:active {
     transform:scale(0.95x)
+}
+
+@media screen and (max-width: 1000px) {
+    .prodInfo {
+        flex-direction: column;
+        align-items: center;
+    }
 }

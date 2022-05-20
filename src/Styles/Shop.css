@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: gray;
     flex-grow: 1;
 }
 
@@ -14,15 +13,9 @@
 
 .shopList {
     display: grid;
-    grid: 1fr 1fr/ repeat(auto-fit, 330px);
-    width: 1200px;
-    gap: 72px;
-}
-
-
-.shopImg {
-    width: 330px;
-    height: 330px;
+    grid: 1fr 1fr/ repeat(auto-fit, 380px);
+    width: 1400px;
+    gap: 96px;
 }
 
 .shopLinks {
@@ -48,8 +41,9 @@
     border-bottom: 3px solid black
 }
 
-.shopItem:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+.shopLinks:hover {
+    background-color: rgba(0, 0, 0);
+    color: white;
 }
 
 @media screen and (max-width: 1000px) {

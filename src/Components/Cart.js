@@ -39,7 +39,7 @@ const Cart = () => {
                             )
                             )}
                         </div> :
-                            <div>Cart is Empty</div>
+                            <div className="emptyCart">Cart is Empty</div>
                     }
                     <div className="sideBtm">
                     <p className="cartTotal">Subtotal = ${cartTotal()}</p>
@@ -52,7 +52,7 @@ const Cart = () => {
 
     return (
         <div>
-            <p className="headerCart" onClick={sideToggle}>Cart</p>
+            <p className="headerCart" onClick={sideToggle}><span className={`cartLength ${cart.length > 0 ? "active" : ""}`}>{cart.length > 0 ? cart.length : null}</span>Cart</p>
             {CartView()}
             <div onClick={sideToggle} className={`overlay ${showCart === true ? "active" : ""}`}></div>
         </div>

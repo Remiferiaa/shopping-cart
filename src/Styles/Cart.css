@@ -1,5 +1,6 @@
 .headerCart {
     cursor: pointer;
+    position: relative;
 }
 
 .sideBar {
@@ -11,7 +12,7 @@
     background-color: white;
     visibility: hidden;
     z-index: 1;
-    width: 300px;
+    width: 350px;
     transition: 1s;
     height: 100vh;
 }
@@ -34,11 +35,12 @@
     font-size: 13px;
     overflow-wrap: break-word;
     margin-bottom: 12px;
+    padding: 12px;
 }
 
 .cartDetail {
     border: 3px solid black;
-    width: 150px;
+    width: 200px;
 }
 
 .cartImg {
@@ -89,6 +91,24 @@
 
 .checkOut:hover {
     background-color: rgba(0, 0, 0, 0.75);
+}
+
+.emptyCart {
+    margin: auto;
+    color: rgb(122, 131, 131);
+}
+
+.cartLength.active {
+    position: absolute;
+    top: 50%;
+    left: -60%;
+    background-color: green;
+    border-radius: 50%;
+    border: 3px solid rgb(7, 53, 7);
+    width: 2rem;
+    text-align: center;
+    color: black;
+    font-weight: bold;
 }
 
 .overlay {

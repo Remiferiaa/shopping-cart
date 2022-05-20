@@ -1,18 +1,20 @@
 .navBar {
     display: flex;
     justify-content: space-between;
-    padding: 0 48px 0 48px;
+    padding: 0.5rem 1rem;
     align-items: center;
     background-color: black;
     color: white;
     height: 100px;
-    font-size: 24px;
+    font-size: 1.5rem;
+    width: 100%;
+    box-sizing: border-box;
+    
 }
 
 .links {
     display: flex;
-    gap: 72px;
-    justify-content: space-around;
+    gap: 36px;
     align-items: center;
     color: white;
 }
@@ -24,4 +26,22 @@
 
 li {
     list-style: none;
+}
+
+.headerLinks:hover, .headers:hover {
+    animation: textColor 4s infinite;
+}
+
+@media screen and (max-width:1000px){
+    .navBar {
+        justify-content: center;
+    }
+}
+
+@keyframes textColor {
+    0% {color : red}
+    30% {color: green;}
+    50% {color: blue;}
+    70% {color: orange}
+    100% {color: red;}
 }
