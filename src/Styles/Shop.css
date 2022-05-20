@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     background-color: gray;
+    flex-grow: 1;
 }
 
 .shopHeader {

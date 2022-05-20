@@ -4,6 +4,8 @@
     align-items: center;
     justify-content: center;
     background-image: url("../Asset/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
 }
 
@@ -42,4 +44,12 @@
     60% {border: 3px solid #FC4F4F }
     80% {border: 3px solid rgb(147, 0, 252)}
     100% {border: 3px solid #00C0FF }
+}
+
+@media screen and (max-width: 1000px) {
+    .homeTitle, .homeButton {
+        font-size: 20px;
+        text-align: center;
+    }
+    
 }
