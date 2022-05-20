@@ -43,16 +43,23 @@
     width: 200px;
 }
 
+.cartDetail > label {
+    margin-left: 4px;
+    font-weight: bold;
+}
+
 .cartImg {
     width: 130px;
     height: 130px;
 }
 
 .cartText {
-    margin: 6px 0 12px 0;
+    margin: 6px 0 12px 4px;
+    font-weight: bold;
 }
 
 .quantInput {
+    margin-left: 4px;
     width: 50px;
 }
 
@@ -69,12 +76,12 @@
     border-radius: 8px;
 }
 
-.removeItem:hover {
-    background-color: rgb(179, 33, 33);
+.cartDetail:hover {
+    background-color: rgba(151, 192, 113, 0.4);
 }
 
 .removeItem:active, .checkOut:active {
-    transform: scale(0.95x);
+    transform: scale(0.95);
 }
 
 .checkOut {
