@@ -15,6 +15,7 @@
     width: 350px;
     transition: 1s;
     height: 100vh;
+    overflow: scroll;
 }
 
 .sideBar.active {
@@ -32,34 +33,34 @@
 .cartItem {
     display: flex;
     color: black;
-    font-size: 13px;
+    font-size: 0.9rem;
     overflow-wrap: break-word;
-    margin-bottom: 12px;
-    padding: 12px;
+    margin-bottom: 0.8rem;
+    padding: 0.8rem;
 }
 
 .cartDetail {
     border: 3px solid black;
-    width: 200px;
+    width: 160px;
 }
 
 .cartDetail > label {
-    margin-left: 4px;
+    margin-left: 0.25rem;
     font-weight: bold;
 }
 
 .cartImg {
-    width: 130px;
-    height: 130px;
+    width: 160px;
+    height: 160px;
 }
 
 .cartText {
-    margin: 6px 0 12px 4px;
+    margin: 0.5rem 0 0.8rem 0.3rem;
     font-weight: bold;
 }
 
 .quantInput {
-    margin-left: 4px;
+    margin-left: 0.3rem;
     width: 50px;
 }
 
@@ -72,7 +73,7 @@
     background-color: red;
     color: white;
     outline: none;
-    margin-left: 3px;
+    margin-left: 0.3rem;
     border-radius: 8px;
 }
 
@@ -88,7 +89,7 @@
     border: none;
     background-color: black;
     outline: none;
-    margin-left: 3px;
+    margin-left: 0.3rem;
 }
 
 .checkOutLink {

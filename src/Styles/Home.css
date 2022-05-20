@@ -10,8 +10,8 @@
 }
 
 .homeTitle {
-    margin-bottom: 24px;
-    font-size: 36px;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
     font-weight: bolder;
 }
 
@@ -23,8 +23,7 @@
 .homeButton {
     border: 3px solid  transparent;
     background-color: black;
-    font-size: 36px;
-
+    font-size: 2rem;
 }
 
 .homeButton:hover {
@@ -48,7 +47,7 @@
 
 @media screen and (max-width: 1000px) {
     .homeTitle, .homeButton {
-        font-size: 20px;
+        font-size: 1.2rem;
         text-align: center;
     }
     
