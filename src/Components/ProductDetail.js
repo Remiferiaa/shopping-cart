@@ -15,7 +15,7 @@ const ProductDetail = () => {
             setItem(data.data)
         }
         fetchProd()
-    })
+    }, [id])
 
     return (
         <div className="product" key={item.id} >
