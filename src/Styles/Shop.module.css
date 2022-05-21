@@ -58,7 +58,7 @@
         width: 260px;
     }
 
-    .shopText {
+    .shopItemName, .shopItemPrice {
         font-size: 0.8rem;
     }
 
